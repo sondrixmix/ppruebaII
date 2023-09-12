@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Lato&display=swap');
+:root{
+	--menu-hover:#FE8F01;
+	--color-general:#e0e0e0;
+	--color-titulos:#282d33;
+	--color-iconos: #e0e0e0;
+	--color-checks:#53c3c9;
+}
+
+@font-face{
+	font-family: "Catamaran";
+	src: url("../fonts/Catamaran-VariableFont_wght.ttf") format("truetype");
+}
+
+body{
+	font-size: 14px;
+}
+
+
+header{
+	background-color: #FFF;
+	padding: 5px 0;
+}
+
+
+#hero{
+	background-image: url("../img/bg-services-title.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 150px;
+	
+}
+#hero h1{
+	color: #FFFFFF;
+	font-size: 80px;
+	font-weight: 650;
+	letter-spacing:1px;
+}
+
+.la-envelope-open-text{
+	color: #e0e0e0;
+	font-size: 180px;
+	margin-bottom: 20px;
+	
+} 
+ 
+.la-mobile{
+	color: #e0e0e0;
+	font-size: 180px;
+	margin-bottom: 20px;
+}
+
+.la-cloud-download-alt{
+	color: #e0e0e0;
+	font-size: 180px;
+	margin-bottom: 20px;
+}
+
+.la-check{
+	color: #53c3c9;
+	font-size: 40px;
+}
+
+#services {
+	padding:100px;
+	text-align: center;
+}
+#services h4{
+	color: #282d33;
+	font-size: 20px;
+	font-weight: 600;
+	padding: 20px;
+}
+
+#services p{
+	color:#e0e0e0;
+	font-weight: 400;
+}
+#pages {
+	padding: 100px;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+#pages h2{
+	color: #282d33;
+	font-size: 40px;
+	font-weight: 650;
+	text-align: center;
+}
+
+#pages h5{
+	color: #e0e0e0;
+	font-size: 20px;
+	text-align: center;
+	padding: 30px 0px 100px 0px;
+}
+
+#pages h4{
+	color: #282d33;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;
+	padding: 30px 0px 15px;
+	
+}
+
+#pages p{
+	color:#e0e0e0;
+	font-weight: 400;
+	padding: 0px 0px 30px;
+}
+
+
+footer{
+	background-color: #333333;
+	color: #bababa;
+	padding: 15px 0;
+	text-align: center;
+}
+
